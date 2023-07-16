@@ -105,16 +105,3 @@ accuracy_rf = accuracy_score(y_test_encoded, y_pred_rf)
 print("Random Forest Model Evaluation:")
 print(classification_report(y_test_encoded, y_pred_rf))
 print("Accuracy:", accuracy_rf)
-
-# Additional steps:
-
-# Hyperparameter Tuning (CNN)
-# You can use techniques like grid search or random search to tune the hyperparameters of the CNN model.
-
-# Different Architectures (CNN)
-# You can experiment with different architectures by adding or modifying layers in the CNN model. For example, you can add more convolutional layers, increase the number of filters, or change the activation functions.
-
-# Additional Evaluation Metrics (CNN)
-# Besides accuracy, you can calculate other evaluation metrics such as precision, recall, and F1-score for the CNN model.
-
-# Note: The code provided is a simplified version for demonstration purposes. You may need to modify it according to your specific requirements and dataset structure.
